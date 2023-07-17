@@ -107,5 +107,8 @@ Form Validations: Implementing form validations within the Frontend was crucial 
 
 **Unknown field Output**<br/><br/>
 Factor field is unknown(???) for Car Value = 200,000<br/><br/>
-![6](https://github.com/magnus390/Angular_SpringBoot_FullStack/assets/30699194/08801e95-87f5-4add-a2e8-d77e05f64235)
+![6](https://github.com/magnus390/Angular_SpringBoot_FullStack/assets/30699194/08801e95-87f5-4add-a2e8-d77e05f64235)  <br/><br/>
 
+***Postman Output**<br/><br/>
+A response message with 3 fields - *success, premium, quoteReference*
+![7](https://github.com/magnus390/Angular_SpringBoot_FullStack/assets/30699194/9ddaab38-57dd-4356-abff-5722f6cb2331)
