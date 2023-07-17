@@ -9,7 +9,7 @@ Let's dive into the details:
 [**3.  Challenges and Key Features**](#challenges-and-key-features)<br/>
 [**4.  Output**](#output)  <br/><br/><br/>
 
-**1.  Setting Up and Running the Application**
+**1.  Setting Up and Running the Application**#setting-up-and-running-the-application
 
 To set up and run the full-stack application, follow the steps below:
 
