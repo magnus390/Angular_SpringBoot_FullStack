@@ -9,7 +9,7 @@ To set up and run the full-stack application, follow the steps below:
 Clone the repository by copying the Git URL from GitHub and running the following command in your designated folder:
 
 ```
-git clone [Git URL]
+git clone git@github.com:magnus390/Angular_SpringBoot_FullStack.git
 ```
 
 **Step 2: Open the Editors**
