@@ -1,6 +1,6 @@
 # Angular_SpringBoot_FullStack
 
-**Setting Up and Running the Application**
+**1.  Setting Up and Running the Application**
 
 To set up and run the full-stack application, follow the steps below:
 
@@ -52,3 +52,30 @@ http://localhost:4200
 Please make sure that both the frontend and backend applications are running simultaneously for the proper functioning of the application.
 
 Feel free to modify the code, experiment, and enhance the application according to your requirements. Happy coding!
+
+
+**2.  Description**
+
+This full-stack application is built with Angular on the front end and Spring Boot on the back end. The front end runs on port 4200, while the back end runs on port 8080.
+
+When you run the application, you'll be presented with a form that includes the following fields:
+
+Age
+Driving Experience
+Driver Record
+Claims
+Car Value
+Annual Mileage
+Insurance History
+The form also includes a dropdown menu populated with various car models. Please note that a large number of car models may take 1-2 seconds for the website to load.
+
+In the Angular front end, I have implemented validations for empty fields and values less than 0.
+
+Once you fill out the form and press the submit button, all the form data will be sent to the Spring Boot backend service. The backend will perform calculations based on the conditions specified in the PDF document.
+
+After the calculations are complete, the backend will return the premium as a response. After submitting the form, you will see three fields displayed:
+
+Annual Premium
+Monthly Premium
+Quote Reference
+These values will be shown to you upon pressing the submit button.
