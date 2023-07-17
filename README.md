@@ -21,13 +21,13 @@ IntelliJ IDEA for Spring Boot Backend
 
 **Step 3: Install Dependencies and Run the Frontend**
 
-In Visual Studio Code, open the terminal and navigate to the frontend directory of the cloned repository. Then, perform the following steps:
+In Visual Studio Code, open the terminal and navigate to the Frontend directory of the cloned repository. Then, perform the following steps:
 
 Install the required Node.js modules by running the following command:
 ```
 npm install
 ```
-Run the frontend application using the following command:
+Run the Frontend application using the following command:
 
 ```
 ng serve
@@ -49,14 +49,14 @@ http://localhost:4200
 
 **Note**
 
-Please make sure that both the frontend and backend applications are running simultaneously for the proper functioning of the application.
+Please make sure that both the Frontend and Backend applications are running simultaneously for the proper functioning of the application.
 
 Feel free to modify the code, experiment, and enhance the application according to your requirements. Happy coding!
 
 
 **2.  Description**
 
-This full-stack application is built with Angular on the front end and Spring Boot on the back end. The front end runs on port 4200, while the back end runs on port 8080.
+This full-stack application is built with Angular on the Frontend and Spring Boot on the Backend. The Frontend runs on port 4200, while the Backend runs on port 8080.
 
 When you run the application, you'll be presented with a form that includes the following fields:
 
@@ -70,13 +70,23 @@ When you run the application, you'll be presented with a form that includes the 
 
 The form also includes a dropdown menu populated with various car models. Please note that a large number of car models may take 1-2 seconds for the website to load.
 
-In the Angular front end, I have implemented validations for empty fields and values less than 0.
+In the Angular Frontend, I have implemented validations for empty fields and values less than 0.
 
-Once you fill out the form and press the submit button, all the form data will be sent to the Spring Boot backend service. The backend will perform calculations based on the conditions specified in the PDF document.
+Once you fill out the form and press the submit button, all the form data will be sent to the Spring Boot Backend service. The Backend will perform calculations based on the conditions specified in the PDF document.
 
-After the calculations are complete, the backend will return the premium as a response. After submitting the form, you will see three fields displayed:
+After the calculations are complete, the Backend will return the premium as a response. After submitting the form, you will see three fields displayed:
 
 Annual Premium
 Monthly Premium
 Quote Reference
 These values will be shown to you upon pressing the submit button.
+
+**3. Challenges and Key Features**
+
+During the development of this application, I encountered minimal challenges due to prior experience in designing similar applications.
+
+Data Transmission: Implementing the data transmission between the Frontend and Backend was an interesting task. Ensuring seamless communication and transferring the form data accurately were essential considerations. I have used CrossOrigin functionality to catch the request based on the port mentioned in the SpringBoot application.
+
+Form Validations: Implementing form validations within the Frontend was crucial to ensure data integrity and provide a seamless user experience. This involved validating input fields, handling edge cases, and providing informative error messages.
+
+
