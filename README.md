@@ -90,21 +90,21 @@ Form Validations: Implementing form validations within the Frontend was crucial 
 
 **4.  Output**
 
-**Form**<br/>
-![1](https://github.com/magnus390/Angular_SpringBoot_FullStack/assets/30699194/65d3b836-111d-4969-ae2b-f22348bd663b)  <br/>
+**Form**<br/><br/>
+![1](https://github.com/magnus390/Angular_SpringBoot_FullStack/assets/30699194/65d3b836-111d-4969-ae2b-f22348bd663b)  <br/><br/>
 
-**Empty Field Validation**
-![2](https://github.com/magnus390/Angular_SpringBoot_FullStack/assets/30699194/e92a41cc-f383-4b71-8193-90ff71830936)  <br/>
+**Empty Field Validation**<br/><br/>
+![2](https://github.com/magnus390/Angular_SpringBoot_FullStack/assets/30699194/e92a41cc-f383-4b71-8193-90ff71830936)  <br/><br/>
 
-**Less than 0 field Validation**
-![3](https://github.com/magnus390/Angular_SpringBoot_FullStack/assets/30699194/269db96d-0d92-4190-9827-edd93d0ab1c7)  <br/>
+**Less than 0 field Validation**<br/><br/>
+![3](https://github.com/magnus390/Angular_SpringBoot_FullStack/assets/30699194/269db96d-0d92-4190-9827-edd93d0ab1c7)  <br/><br/>
 
-**Populating Car Models Dropdown**
-![4](https://github.com/magnus390/Angular_SpringBoot_FullStack/assets/30699194/131e05f5-c5c8-4480-8a61-0c7487c640ac)  <br/>
+**Populating Car Models Dropdown**<br/><br/>
+![4](https://github.com/magnus390/Angular_SpringBoot_FullStack/assets/30699194/131e05f5-c5c8-4480-8a61-0c7487c640ac)  <br/><br/>
 
-**Obtaining annual and monthly premium with Quote Reference**
-![5](https://github.com/magnus390/Angular_SpringBoot_FullStack/assets/30699194/85a3440b-a181-43f7-b279-80976dcda5a7)  <br/>
+**Obtaining annual and monthly premium with Quote Reference**<br/><br/>
+![5](https://github.com/magnus390/Angular_SpringBoot_FullStack/assets/30699194/85a3440b-a181-43f7-b279-80976dcda5a7)  <br/><br/>
 
-**Unknown field Output**
+**Unknown field Output**<br/><br/>
 ![6](https://github.com/magnus390/Angular_SpringBoot_FullStack/assets/30699194/08801e95-87f5-4add-a2e8-d77e05f64235)
 
