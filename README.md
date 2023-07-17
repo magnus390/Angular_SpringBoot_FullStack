@@ -82,7 +82,9 @@ Once you fill out the form and press the submit button, all the form data will b
 
 After the calculations are complete, the Backend will return the premium as a response. After submitting the form, you will see three fields displayed:
 
-Annual Premium, Monthly Premium (Annual Premium/12), Quote Reference  <br/><br/><br/><br/>
+Annual Premium  <br/>
+Monthly Premium (Annual Premium/12)  <br/>
+Quote Reference  <br/><br/><br/><br/>
 
 **3. Challenges and Key Features**
 
