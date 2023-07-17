@@ -79,14 +79,14 @@ The form also includes a dropdown menu populated with various car models. Please
 
 In the Angular Frontend, I have implemented validations for empty fields and values less than 0.
 
-Once you fill out the form and press the submit button, all the form data will be sent to the Spring Boot Backend service. The Backend will perform calculations based on the conditions specified in the PDF document.
+Once you fill out the form and press the submit button, all the form data will be sent to the Spring Boot Backend service. The Backend will perform calculations based on the conditions.
 
 After the calculations are complete, the Backend will return the premium as a response. After submitting the form, you will see three fields displayed:
 
 Annual Premium
 Monthly Premium
 Quote Reference
-These values will be shown to you upon pressing the submit button.
+
 
 **3. Challenges and Key Features**
 
