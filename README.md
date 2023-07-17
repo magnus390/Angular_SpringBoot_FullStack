@@ -63,7 +63,7 @@ Please make sure that both the Frontend and Backend applications are running sim
 
 **2.  Description**
 
-This full-stack application is built with Angular on the Frontend and Spring Boot on the Backend. The Frontend runs on port 4200, while the Backend runs on port 8080.
+The Frontend runs on port 4200, while the Backend runs on port 8080.
 
 When you run the application, you'll be presented with a form that includes the following fields:
 
