@@ -7,7 +7,7 @@ Let's dive into the details:
 **1.  Setting Up and Running the Application**<br/>
 **2.  Description**<br/>
 **3.  Challenges and Key Features**<br/>
-**4.  Output**  <br/><br/><br/>
+**4.  Output**  <br/><br/><br/><br/>
 
 **1.  Setting Up and Running the Application**
 
@@ -58,8 +58,7 @@ http://localhost:4200
 
 **Note**
 
-Please make sure that both the Frontend and Backend applications are running simultaneously for the proper functioning of the application.
-
+Please make sure that both the Frontend and Backend applications are running simultaneously for the proper functioning of the application.  <br/><br/><br/><br/>
 
 **2.  Description**
 
@@ -85,8 +84,7 @@ After the calculations are complete, the Backend will return the premium as a re
 
 Annual Premium
 Monthly Premium
-Quote Reference
-
+Quote Reference  <br/><br/><br/><br/>
 
 **3. Challenges and Key Features**
 
@@ -94,8 +92,7 @@ During the development of this application, I encountered minimal challenges due
 
 Data Transmission: Implementing the data transmission between the Frontend and Backend was an interesting task. Ensuring seamless communication and transferring the form data accurately were essential considerations. I have used CrossOrigin functionality to catch the request based on the port mentioned in the SpringBoot application.
 
-Form Validations: Implementing form validations within the Frontend was crucial to ensure data integrity and provide a seamless user experience. This involved validating empty input fields, less than 0 validation, and providing informative error messages.
-
+Form Validations: Implementing form validations within the Frontend was crucial to ensure data integrity and provide a seamless user experience. This involved validating empty input fields, less than 0 validation, and providing informative error messages.  <br/><br/><br/><br/>
 
 **4.  Output**
 
