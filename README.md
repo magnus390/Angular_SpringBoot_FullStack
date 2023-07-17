@@ -4,7 +4,7 @@ Welcome to the Angular SpringBoot FullStack application! This is a Full Stack ap
 
 Let's dive into the details:
 
-**1.  Setting Up and Running the Application**]<br/>
+**1.  Setting Up and Running the Application**<br/>
 **2.  Description**<br/>
 **3.  Challenges and Key Features**<br/>
 **4.  Output**  <br/><br/><br/>
