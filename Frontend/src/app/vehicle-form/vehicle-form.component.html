@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <h1>Vehicle Insurance Form</h1>
+  <form (ngSubmit)="submitForm(quoteForm)" #quoteForm="ngForm">
+    <h2>Driver's Information</h2>
+
+    <div>
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age" [(ngModel)]="driverInfo.age" required #age="ngModel">
+      <div *ngIf="age.invalid && age.touched">
+        <div *ngIf="age.hasError('required')" class="error-message">
+          Age is required.
+        </div>
+        <div *ngIf="age.hasError('negativeAge') && !age.hasError('required')" class="error-message">
+          Age cannot be less than 0.
+        </div>
+      </div><br>
+    </div>
+
+    <div>
+      <label for="drivingExperience">Driving Experience (in years):</label>
+      <input type="number" id="drivingExperience" name="drivingExperience" [(ngModel)]="driverInfo.drivingExperience"
+        required #drivingExperience="ngModel">
+      <div *ngIf="drivingExperience.invalid && drivingExperience.touched">
+        <div *ngIf="drivingExperience.hasError('required')" class="error-message">
+          Driving Experience is required.
+        </div>
+        <div *ngIf="drivingExperience.hasError('negativeExp') && !drivingExperience.hasError('required')"
+          class="error-message">
+          Driving Experience cannot be less than 0.
+        </div>
+      </div><br>
+    </div>
+
+    <div>
+      <label for="driverRecord">Driver Record:</label>
+      <input type="number" id="driverRecord" name="driverRecord" [(ngModel)]="driverInfo.driverRecord" required
+        #driverRecord="ngModel">
+      <div *ngIf="driverRecord.invalid && driverRecord.touched">
+        <div *ngIf="driverRecord.hasError('required')" class="error-message">
+          Driver Record is required.
+        </div>
+        <div *ngIf="driverRecord.hasError('negativeRecord') && !driverRecord.hasError('required')"
+          class="error-message">
+          Driving Record cannot be less than 0.
+        </div>
+      </div><br>
+    </div>
+
+    <div>
+      <label for="claims">Claims:</label>
+      <input type="number" id="claims" name="claims" [(ngModel)]="driverInfo.claims" required #claims="ngModel">
+      <div *ngIf="claims.invalid && claims.touched">
+        <div *ngIf="claims.hasError('required')" class="error-message">
+          Claims is required.
+        </div>
+        <div *ngIf="claims.hasError('negativeClaims') && !claims.hasError('required')" class="error-message">
+          Claims cannot be less than 0.
+        </div>
+      </div><br>
+    </div>
+
+    <div>
+      <label for="carValue">Car Value:</label>
+      <input type="number" id="carValue" name="carValue" [(ngModel)]="driverInfo.carValue" required #carValue="ngModel">
+      <div *ngIf="carValue.invalid && carValue.touched">
+        <div *ngIf="carValue.hasError('required')" class="error-message">
+          Car Value is required.
+        </div>
+        <div *ngIf="carValue.hasError('negativecarValue') && !carValue.hasError('required')" class="error-message">
+          Car Value cannot be less than 0.
+        </div>
+      </div><br>
+    </div>
+
+    <div>
+      <label for="annualMileage">Annual Mileage:</label>
+      <input type="number" id="annualMileage" name="annualMileage" [(ngModel)]="driverInfo.annualMileage" required
+        #annualMileage="ngModel">
+      <div *ngIf="annualMileage.invalid && annualMileage.touched">
+        <div *ngIf="annualMileage.hasError('required')" class="error-message">
+          Annual Mileage is required.
+        </div>
+        <div *ngIf="annualMileage.hasError('negativeMileage') && !annualMileage.hasError('required')"
+          class="error-message">
+          Annual Mileage cannot be less than 0.
+        </div>
+      </div><br>
+    </div>
+
+    <div>
+      <label for="insuranceHistory">Insurance History:</label>
+      <input type="number" id="insuranceHistory" name="insuranceHistory" [(ngModel)]="driverInfo.insuranceHistory"
+        required #insuranceHistory="ngModel">
+    </div>
+
+    <!-- <h2>Vehicle Information</h2>
+    <div>
+      <label for="carModel">Car Model:</label>
+      <select id="carModel" name="carModel" [(ngModel)]="vehicleInfo.carModel" required>
+        <option *ngFor="let model of carModels" [value]="model">{{ model }}</option>
+      </select>
+    </div> -->
+
+    <button type="submit" [disabled]="quoteForm.invalid">Submit</button>
+  </form>
+
+  <div *ngIf="quote !== null">
+    <h2>Premium Details</h2>
+    <p class="answer-message">
+      Annual Premium:
+      {{ quote !== 0 ? (quote | number:'1.2-2') : 'Unknown Premium, please contact our insurance specialist' }}
+    </p>
+    <p class="answer-message">
+      Monthly Premium:
+      {{ quote_month !== 0 ? (quote_month | number:'1.2-2') : 'Unknown Premium, please contact our insurance specialist'
+      }}
+    </p>
+    <p class="answer-message">Reference #: {{ quoteReference }}</p>
+  </div>
+
+</body>
+
+</html>

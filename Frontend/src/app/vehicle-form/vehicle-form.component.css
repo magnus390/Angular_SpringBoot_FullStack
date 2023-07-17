@@ -1,0 +1,83 @@
+h1 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+form {
+  width: 500px;
+  max-width: 100%;
+}
+
+label {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f4f4f4;
+  transition: background-color 0.3s;
+}
+
+input[type="number"] {
+  width: calc(100% - 36px);
+}
+
+input:focus,
+select:focus {
+  background-color: #e0e0e0;
+  outline: none;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #0069d9;
+}
+
+.quote-details {
+  margin-top: 30px;
+  border-top: 1px solid #ccc;
+  padding-top: 30px;
+}
+
+.quote-details p {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.quote-details p:first-child {
+  margin-top: 0;
+}
+
+.error-message {
+  color: red;
+  font-size: 17px;
+}
+
+.answer-message {
+  color: blue;
+  font-size: 17px;
+}
