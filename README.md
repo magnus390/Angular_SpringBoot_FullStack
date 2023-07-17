@@ -60,13 +60,13 @@ This full-stack application is built with Angular on the front end and Spring Bo
 
 When you run the application, you'll be presented with a form that includes the following fields:
 
-Age
-Driving Experience
-Driver Record
-Claims
-Car Value
-Annual Mileage
-Insurance History
+1.  Age<br/>
+2.  Driving Experience<br/>
+3.  Driver Record<br/>
+4.  Claims<br/>
+5.  Car Value<br/>
+6.  Annual Mileage<br/>
+7.  Insurance History<br/>
 The form also includes a dropdown menu populated with various car models. Please note that a large number of car models may take 1-2 seconds for the website to load.
 
 In the Angular front end, I have implemented validations for empty fields and values less than 0.
