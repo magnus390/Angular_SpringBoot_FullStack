@@ -74,7 +74,6 @@ When you run the application, you'll be presented with a form that includes the 
 5.  Car Value<br/>
 6.  Annual Mileage<br/>
 7.  Insurance History
-8.  Car Model
 
 The form also includes a dropdown menu populated with various car models. Please note that a large number of car models may take 1-2 seconds for the website to load.
 
