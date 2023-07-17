@@ -51,8 +51,6 @@ http://localhost:4200
 
 Please make sure that both the Frontend and Backend applications are running simultaneously for the proper functioning of the application.
 
-Feel free to modify the code, experiment, and enhance the application according to your requirements. Happy coding!
-
 
 **2.  Description**
 
