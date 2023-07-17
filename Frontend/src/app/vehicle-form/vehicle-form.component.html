@@ -103,13 +103,13 @@
         required #insuranceHistory="ngModel">
     </div>
 
-    <!-- <h2>Vehicle Information</h2>
+    <h2>Vehicle Information</h2>
     <div>
       <label for="carModel">Car Model:</label>
       <select id="carModel" name="carModel" [(ngModel)]="vehicleInfo.carModel" required>
         <option *ngFor="let model of carModels" [value]="model">{{ model }}</option>
       </select>
-    </div> -->
+    </div><br>
 
     <button type="submit" [disabled]="quoteForm.invalid">Submit</button>
   </form>
