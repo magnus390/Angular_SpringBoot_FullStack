@@ -81,11 +81,11 @@ These values will be shown to you upon pressing the submit button.
 
 **3. Challenges and Key Features**
 
-During the development of this application, I encountered minimal challenges due to prior experience in designing similar applications.
+During the development of this application, I encountered minimal challenges due to prior experience in designing similar applications. Some of the key features are mentioned below:-
 
 Data Transmission: Implementing the data transmission between the Frontend and Backend was an interesting task. Ensuring seamless communication and transferring the form data accurately were essential considerations. I have used CrossOrigin functionality to catch the request based on the port mentioned in the SpringBoot application.
 
-Form Validations: Implementing form validations within the Frontend was crucial to ensure data integrity and provide a seamless user experience. This involved validating input fields, handling edge cases, and providing informative error messages.
+Form Validations: Implementing form validations within the Frontend was crucial to ensure data integrity and provide a seamless user experience. This involved validating empty input fields, less than 0 validation, and providing informative error messages.
 
 
 **4.  Output**
@@ -109,6 +109,6 @@ Form Validations: Implementing form validations within the Frontend was crucial 
 Factor field is unknown(???) for Car Value = 200,000<br/><br/>
 ![6](https://github.com/magnus390/Angular_SpringBoot_FullStack/assets/30699194/08801e95-87f5-4add-a2e8-d77e05f64235)  <br/><br/>
 
-***Postman Output**<br/><br/>
+**Postman Output**<br/><br/>
 A response message with 3 fields - *success, premium, quoteReference*
 ![7](https://github.com/magnus390/Angular_SpringBoot_FullStack/assets/30699194/9ddaab38-57dd-4356-abff-5722f6cb2331)
