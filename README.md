@@ -1,4 +1,4 @@
-# Angular_SpringBoot_FullStack
+# Angular SpringBoot FullStack
 
 **1.  Setting Up and Running the Application**
 
