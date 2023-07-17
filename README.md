@@ -90,7 +90,7 @@ Quote Reference  <br/><br/><br/><br/>
 
 During the development of this application, I encountered minimal challenges due to prior experience in designing similar applications. Some of the key features are mentioned below:-
 
-Data Transmission: Implementing the data transmission between the Frontend and Backend was an interesting task. Ensuring seamless communication and transferring the form data accurately were essential considerations. I have used CrossOrigin functionality to catch the request based on the port mentioned in the SpringBoot application.
+Data Transmission: Implementing the data transmission between the Frontend and Backend was an interesting task. Ensuring seamless communication and transferring the form data accurately were essential considerations. I have used CrossOrigin functionality to process the request based on the port mentioned in the SpringBoot application.
 
 Form Validations: Implementing form validations within the Frontend was crucial to ensure data integrity and provide a seamless user experience. This involved validating empty input fields, less than 0 validation, and providing informative error messages.  <br/><br/><br/><br/>
 
