@@ -1,5 +1,14 @@
 # Angular SpringBoot FullStack
 
+Welcome to the Angular SpringBoot FullStack application! This is a full-stack application built with Angular on the Frontend and Spring Boot on the Backend. It features a form where users can input their details, and based on that, the application calculates the insurance premium.
+
+Let's dive into the details:
+
+1.  **Setting Up and Running the Application**
+2.  **Description**
+3.  **Challenges and Key Features**
+4.  **Output**  <br/><br/><br/>
+
 **1.  Setting Up and Running the Application**
 
 To set up and run the full-stack application, follow the steps below:
